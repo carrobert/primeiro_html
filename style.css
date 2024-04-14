@@ -1,0 +1,75 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #00563F;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 150px; /* Ajuste conforme necessário */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos do conteúdo principal */
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #00563F;
+}
+
+section {
+    margin-top: 20px;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #00563F;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 100px; /* Ajuste conforme necessário */
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+}
+
+footer ul li {
+    margin-right: 10px;
+}
